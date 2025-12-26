@@ -81,7 +81,7 @@ TRUNCATE TABLE gold.dim_customers;
 GO
 
 BULK INSERT gold.dim_customers
-FROM 'C:\Users\Roshan Mishra\Desktop\project\PROJECT DATAWAREHOUSE SQL\1bcf8e7ed7fc44fba0185e565c46f982\sql-data-analytics-project\datasets\csv-files\gold.dim_customers.csv'
+FROM 'C:\Users\Sudarshan Mishra\Desktop\project\PROJECT DATAWAREHOUSE SQL\1bcf8e7ed7fc44fba0185e565c46f982\sql-data-analytics-project\datasets\csv-files\gold.dim_customers.csv'
 WITH (
 	FIRSTROW = 2,
 	FIELDTERMINATOR = ',',
@@ -93,7 +93,7 @@ TRUNCATE TABLE gold.dim_products;
 GO
 
 BULK INSERT gold.dim_products
-FROM 'C:\Users\Roshan Mishra\Desktop\project\PROJECT DATAWAREHOUSE SQL\1bcf8e7ed7fc44fba0185e565c46f982\sql-data-analytics-project\datasets\csv-files\gold.dim_products.csv'
+FROM 'C:\Users\Sudarshan Mishra\Desktop\project\PROJECT DATAWAREHOUSE SQL\1bcf8e7ed7fc44fba0185e565c46f982\sql-data-analytics-project\datasets\csv-files\gold.dim_products.csv'
 WITH (
 	FIRSTROW = 2,
 	FIELDTERMINATOR = ',',
@@ -105,10 +105,11 @@ TRUNCATE TABLE gold.fact_sales;
 GO
 
 BULK INSERT gold.fact_sales
-FROM 'C:\Users\Roshan Mishra\Desktop\project\PROJECT DATAWAREHOUSE SQL\1bcf8e7ed7fc44fba0185e565c46f982\sql-data-analytics-project\datasets\csv-files\gold.fact_sales.csv'
+FROM 'C:\Users\Sudarshan Mishra\Desktop\project\PROJECT DATAWAREHOUSE SQL\1bcf8e7ed7fc44fba0185e565c46f982\sql-data-analytics-project\datasets\csv-files\gold.fact_sales.csv'
 WITH (
 	FIRSTROW = 2,
 	FIELDTERMINATOR = ',',
 	TABLOCK
 );
 GO
+
